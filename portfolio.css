@@ -1,0 +1,102 @@
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pagetitle{
+	text-align: center;
+}
+
+#affinity {
+	width:70%;
+	height:auto;
+	display: block;
+    margin: 0 auto;
+}
+
+
+#headshot {
+	width:50%;
+	height:auto;
+	display: block;
+    margin: 0 auto;
+}
+
+#logo {
+	width:100%;
+	height:auto;
+}
+
+#oona {
+	width:20%;
+	height:auto;
+    margin: 0 auto;
+}
+
+#PTF {
+	width:50%;
+	height:auto;
+	display: block;
+    margin: 0 auto;
+}
+
+#cultural{
+	width:30%;
+	height:auto;
+
+    margin: 0 auto;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #3d3c3a;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+}
+
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18pt;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #8e2be5;
+    font-size: 17pt;
+}
+
+.sidenav a.active {
+	background-color: #baf918;
+	color: white;
+}
+
+.snapwidget-widget {
+	display: block;
+    margin: 0 auto;
+ 	border:none; 
+    overflow:hidden; 
+    width:315px; 
+    height:315px
+}
+
+
+

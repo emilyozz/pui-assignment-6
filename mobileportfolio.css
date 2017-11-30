@@ -1,0 +1,84 @@
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#affinity {
+	width:100%;
+	height:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#headshot {
+	width:100%;
+	height:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#logo {
+	width:50%;
+	height:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#oona {
+	width:70%;
+	height:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#PTF {
+	width:100%;
+	height:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#cultural{
+	width:100%;
+	height:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.topnav {
+  overflow: hidden;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: #3d3c3a;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.topnav a {
+  transition: 0.3s;
+  color: #3d3c3a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+}
+
+.main {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.topnav a:hover, .offcanvas a:focus{
+    color: #8e2be5;
+    font-size: 15pt;
+}
+
+
