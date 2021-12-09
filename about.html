@@ -13,6 +13,15 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
+let map: google.maps.Map;
+
+function initMap(): void {
+  map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}	
+	
 <body>
 
 	<div id=mySidenav class="sidenav topnav">
